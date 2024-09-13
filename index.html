@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUniverse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        #about{
+            background-image: url(image/about.jpg);
+            height: 100vh;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            background-position: center top;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        #navbar{
+            backdrop-filter: blur(20px);
+        }
+
+        #list{
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <a href="#"><i class="flex bottom-0 right-0 mr-7 md:hidden shadow-xl text-3xl mb-7 font-bold p-5 rounded-3xl fixed bi bi-arrow-up bg-blue-600"></i></a>
+    <div class="flex flex-col" id="about">
+        <div class="py-5 w-full px-4">
+            <div class="flex py-5 px-10 justify-between w-full h-fit items-center rounded-2xl" id="navbar">
+                <h1 class="text-3xl font-['Montserrat'] font-bold">G<span class="text-blue-700">Universe</span></h1>
+                <div class="gap-5 text-[18px] font-semibold font-['Montserrat'] hidden md:flex">
+                    <a href="#tentang"><p>About her</p></a>
+                    <a href="#child"><p>Childhood</p></a>
+                    <a href="#photo"><p>Photo List</p></a>
+                </div>
+                <i class="cursor-pointer bi bi-list text-3xl sm:flex md:hidden lg:hidden xl:hidden" id="ham"></i>
+            </div>
+            <div class="flex transition-all flex-col opacity-0 md:hidden items-center py-2 text-2xl gap-5 font-semibold rounded-lg " id="list">
+                <a href="#tentang"><p>About her</p></a>
+                <a href="#child"><p>Childhood</p></a>
+                <a href="#photo"><p>Photo List</p></a>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center text-6xl font-['Dancing_Script'] text-white gap-2 items-center  md:h-[60vh] font-bold">
+            <p>About her</p>
+            <p>Gendis</p>
+        </div>
+    </div>
+    <div class="flex flex-col mt-10" id="tentang">
+        <h1 class="text-6xl flex justify-center w-full font-bold font-['Dancing_Script']">About her</h1>
+        <div class="flex flex-col gap-10 p-10">
+            <div class=" md:flex p-4 gap-5 rounded-md bg-white shadow-xl">
+                <img src="image/IMG-20240816-WA0053 Cropped.jpg" class="md:w-[30%] rounded-md bg-blue-400" alt="">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                        <p class="py-5 text-slate-900 text-3xl font-semibold font-['Montserrat']">Milan Reza Fachlevi</p>
+                        <div class="flex flex-col gap-5">
+                            <p class="font-semibold text-slate-700 md:text-2xl">halo, nama gw Milan Reza Fachlevi, lo bisa panggil gw milan atau apapun, hobi gw main basket ngegambar sama suka dia, siapa dia? dia adalah orang yang paling gw sayang, tapi sayangnya kita udah ga bisa bareng lagi karena suatu alasan yang ngebuat kita terpaksa harus ga bareng lagi, mungkin kita tetep bisa bareng, tapi sebagai teman karena kita satu kelas, btw siapa dia?</p>
+                            <div class="bg-gray-400 py-2 px-4 rounded-xl w-fit love cursor-pointer" id="love">
+                                <i class="bi bi-heart text-2xl like text-red-600" id="like"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex p-4 gap-5 rounded-md bg-white shadow-xl">
+                <img src="image/revisi.jpg" class="md:w-[30%] rounded-md bg-blue-400" alt="">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                        <p class="py-5 text-slate-900 text-3xl font-semibold font-['Montserrat']">Gendis Larasati</p>
+                        <div class="flex flex-col gap-5">
+                            <p class="font-semibold text-slate-700 md:text-1xl">ini dia, namanya Gendis Larasati, nama nya cantik seperti orangnya, dia baik, pinter, cantik, manis, imut, pokoknya semua hal yang baik ada di dia. Selain itu dia juga anaknya penyayang, penyabar, bahkan gw jarang banget ngeliat dia marah, tapi mungkin sekalinya dia marah dunia hancur kayaknya. Beberapa hal yang bisa gw inget tentang dia ya foto foto dia, pipi dia yang chubby seperti mochi, dan wanginya yang khas dan bikin nyaman, banyak banget hal yang mau gw lakuin tapi ga sempet kesampean karena satu alasan yang bener bener terpaksa kita harus ga bareng lagi, banyak hal yang mau gw ungkapin ke dia tapi ga bisa, but I looOooOoOvee yoOoUuUu in every universe, i lovee you 3000, i love youu to the moon and back, i love you forever and ever 💗💞💫🚀</p>
+                            <div class="bg-gray-400 py-2 px-4 rounded-xl w-fit love cursor-pointer" id="love">
+                                <i class="bi bi-heart text-2xl like text-red-600" id="like"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col py-10" id="child">
+        <h1 class="flex justify-center text-6xl w-full font-['Dancing_Script']">Our Childhood</h1>
+        <div class="mt-10 px-10 flex flex-col gap-10 md:flex-row justify-center items-center md:justify-evenly">
+            <div class="bg-white shadow-xl p-5 w-[350px] rounded-md flex flex-col gap-5">
+                <img src="image/child.jpg" class="w-[100%] rounded-md" alt="">
+                <div class="">
+                    <p class="text-2xl font-semibold flex justify-center text-slate-700 font-['Montserrat']">Milan Reza Fachlevi✨</p>
+                </div>
+            </div>
+            <div class="bg-white p-5 w-[350px] shadow-xl rounded-md flex flex-col gap-5">
+                <img src="image/child2.jpg" class="w-[100%] rounded-md" alt="">
+                <div class="">
+                    <p class="text-3xl font-semibold flex justify-center text-slate-700 font-['Montserrat']">Gendis Larasati✨</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col py-10 gap-10" id="photo">
+        <h1 class="flex justify-center text-6xl font-['Dancing_Script']">Photo List</h1>
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-3 px-10 justify-evenly">
+            <div class="flex flex-col bg-white p-3 rounded-md">
+                <img src="image/photo1.jpg" alt="">
+                <p></p>
+            </div>
+            <div class="flex flex-col bg-white p-3 rounded-md">
+                <img src="image/photo2.jpg" alt="">
+                <p></p>
+            </div>
+            <div class="flex flex-col bg-white p-3 rounded-md">
+                <img src="image/photo3.jpg" alt="">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const ham = document.getElementById('ham');
+        const list = document.getElementById('list');
+        const loves = document.querySelectorAll('.love');
+        const likes = document.querySelectorAll('.like');
+
+        loves.forEach((love, index) => {
+            love.addEventListener('click', function(e) {
+                const like = likes[index];
+                if (like.classList.contains('bi-heart-fill')) {
+                    like.classList.remove('bi-heart-fill');
+                    like.classList.add('bi-heart');
+                } else {
+                    like.classList.remove('bi-heart');
+                    like.classList.add('bi-heart-fill');
+                }
+            });
+        });
+
+
+        ham.addEventListener('click', function(e){
+            list.classList.toggle('opacity-0');
+        })
+
+    </script>
+    <script src=""></script>
+</body>
+</html>
